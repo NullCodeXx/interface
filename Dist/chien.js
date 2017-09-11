@@ -16,6 +16,9 @@ var Chien = /** @class */ (function () {
     Chien.prototype.emettreSons = function () {
         return "waouf" + "waouf";
     };
+    Chien.prototype.attaque = function () {
+        console.log("Le chien attaque");
+    };
     return Chien;
 }());
 exports.Chien = Chien;

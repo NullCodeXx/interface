@@ -8,6 +8,9 @@ animaleCompagnie via l'interface mais peut aussi etre appeler seul, il
 il peut évoluer.
 */
 let chien = new Chien('fido', 'corgi');
+chien.attaque();
+let chat = new Chat("frite", "steak");
+chat.chasser();
 
 const animaux: animaleCompagnie[] = [];
 animaux.push(new Chien('fido', 'corgi'));

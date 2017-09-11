@@ -17,16 +17,16 @@ export class Chat implements animaleCompagnie{
     */
     //Implement les method de l'interface.
     seGrater(): void {
-        throw new Error("Le chat se gratte.");
+        console.log("Le chat se gratte.");
     }
     manger(aliment): void {
-        throw new Error("Le chat mange" + aliment);
+        console.log("Le chat mange" + aliment);
     }
     emettreSons(): string {
-        throw new Error("le chat miaule");
+         return "le chat miaule";
     }
 
-    function(): void {
+    chasser(): void {
         console.log("Le chat chasse");
     }
 }

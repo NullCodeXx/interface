@@ -21,4 +21,7 @@ export class Chien implements animaleCompagnie{
     emettreSons(): string {
         return "waouf" + "waouf";
     }
+    attaque(): string {
+        console.log("Le chien attaque");
+    }
 }

@@ -19,15 +19,15 @@ var Chat = /** @class */ (function () {
     */
     //Implement les method de l'interface.
     Chat.prototype.seGrater = function () {
-        throw new Error("Le chat se gratte.");
+        console.log("Le chat se gratte.");
     };
     Chat.prototype.manger = function (aliment) {
-        throw new Error("Le chat mange" + aliment);
+        console.log("Le chat mange" + aliment);
     };
     Chat.prototype.emettreSons = function () {
-        throw new Error("le chat miaule");
+        return "le chat miaule";
     };
-    Chat.prototype.function = function () {
+    Chat.prototype.chasser = function () {
         console.log("Le chat chasse");
     };
     return Chat;
