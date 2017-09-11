@@ -1,0 +1,22 @@
+{
+  "name": "interface",
+  "version": "0.0.1",
+  "description": "Interface révision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaafarcode/interface.git"
+  },
+  "author": "D. BOUMAZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaafarcode/interface/issues"
+  },
+  "homepage": "https://github.com/djaafarcode/interface#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
