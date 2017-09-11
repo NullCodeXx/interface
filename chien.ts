@@ -4,22 +4,21 @@ import { animaleCompagnie } from "./interface-animal-compagnie";
 export class Chien implements animaleCompagnie{
     name: string;
     race: string;
-    allezChercher: void;
+
     
-    constructor(name: string, race: string, allezChercher: void ) {
-        this.name;
-        this.race;
-        this.allezChercher;
+    constructor(name: string, race: string ) {
+        this.name = name;
+        this.race = race;
     }
 
     //Implement les method de l'interface.
     seGrater(): void {
-        throw new Error("Method not implemented.");
+        console.log("Le chien se gratte");
     }
-    manger(): void {
-        throw new Error("Method not implemented.");
+    manger(aliment): void {
+        console.log("Le chien mange"+ aliment);
     }
     emettreSons(): string {
-        throw new Error("Method not implemented.");
+        return "waouf" + "waouf";
     }
 }

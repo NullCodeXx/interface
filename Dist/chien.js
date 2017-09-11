@@ -2,20 +2,19 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // Class && Method CHIEN
 var Chien = /** @class */ (function () {
-    function Chien(name, race, allezChercher) {
-        this.name;
-        this.race;
-        this.allezChercher;
+    function Chien(name, race) {
+        this.name = name;
+        this.race = race;
     }
     //Implement les method de l'interface.
     Chien.prototype.seGrater = function () {
-        throw new Error("Method not implemented.");
+        console.log("Le chien se gratte");
     };
-    Chien.prototype.manger = function () {
-        throw new Error("Method not implemented.");
+    Chien.prototype.manger = function (aliment) {
+        console.log("Le chien mange" + aliment);
     };
     Chien.prototype.emettreSons = function () {
-        throw new Error("Method not implemented.");
+        return "waouf" + "waouf";
     };
     return Chien;
 }());
