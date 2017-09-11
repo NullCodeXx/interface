@@ -20,4 +20,4 @@ for (var _i = 0, animaux_1 = animaux; _i < animaux_1.length; _i++) {
     console.log(animal.emettreSons());
     animal.seGrater();
 }
-//# sourceMappingURL=test-interface.js.map
+//# sourceMappingURL=interface-test.js.map
